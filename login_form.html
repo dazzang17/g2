@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> LOGIN </title>
+<meta charset="utf-8">
+<meta name="author" content="DayeaYun">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Affordable and professional web design">
+<meta name="keywords" content="web design, affordable web design, professional web design">
+<link href="mystyle.css" rel="stylesheet">
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<style>
+.threeDEffect {color : white; text-shadow : 2px 2px 2px white}
+input[type=text] { /* text 창에만 적용 */
+	color : red; 
+}
+input:hover, textarea:hover { /* 마우스 올라 올 때 */
+	background : aliceblue;
+}
+input[type=text]:focus, input[type=email]:focus { /* 포커스 받을 때 */
+	font-size : 120%; 
+}
+label {
+	display : block; /* 새 라인에서 시작 */
+	padding : 10px;
+}
+label span {
+	float : left;
+	width : 90px;
+	text-align : right;
+	padding : 10px;
+}
+@keyframes textColorAnimation {
+	0% { color : #a6172d; }
+  30% { color : red; }
+	50% { color : green; } 
+	100% { color : blue; }
+}
+span {
+	animation-name : textColorAnimation; 
+	animation-duration : 5s;
+	animation-iteration-count : infinite; 
+}
+</style>
+</head>
+
+
+
+
+<body>
+	<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<header>
+      <div class="container">
+        <div id="branding">
+          <h1 title="2017년 이병천교수님과 함께하는 즐거운 웹프로그래밍"><span class="highlight">Dayea's</span> Homepage</h1>
+        </div>
+        <nav>
+          <ul>
+			<div class="threeDEffect">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="index2.html">Home</a></li>
+            <li class="current"><a href="login.html"> Login</a></li>
+            <li><a href="about.html">About</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="site.html">Site</a></li>
+            <li><a href="activity.html">Activity</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+ <section id="showcase">
+      <div class="container">
+       <form>
+	<legend><h3><p style="cursor: crosshair">회원정보 입력</p></h3></legend>
+	email : <input type="email" placeholder="id">
+	<input type="text" list="host">
+			<datalist id="host">
+				<option value="naver.com">
+				<option value="daum.net">
+				<option value="hanmail.net">
+				<option value="gmail.com">
+				<option value="직접입력">
+			</datalist><br>
+	홈페이지 : <input type="url" placeholder="http://"><br>
+	전화번호 : <input type="tel" placeholder="010-1234-5678"><br>
+	자기소개 : <input type="text" size="40"placeholder="자기소개를 입력해주세요.">
+			  <input type="submit" value="확인"><br>
+	</form>
+    <hr>
+	
+<form name="fo" method="get">
+    	<legend><h3><p style="cursor: help">로그인</p></h3></legend>
+아이디 : <input type="text" size="15" value=""><br>
+비밀번호 : <input type="password" size="15" value="">
+<input type="submit" value="완료">
+</form>
+</body>
+
+<hr>
+
+<div class="login">
+        <form id="frmNIDLogin" name="frmNIDLogin" target="_top" action="https://nid.naver.com/nidlogin.login" method="post">
+            <input type="hidden" name="enctp" id="enctp" value="2">
+            <input type="hidden" name="encpw" id="encpw" value="">
+            <input type="hidden" name="encnm" id="encnm" value="">
+            <input type="hidden" name="svctype" id="svctype" value="0">
+            <input type="hidden" name="url" id="url" value="http://www.naver.com/">
+            <input type="hidden" name="enc_url" id="enc_url" value="http%3A%2F%2Fwww.naver.com%2F">
+            <input type="hidden" name="postDataKey" id="postDataKey" value="">
+            <input type="hidden" name="nvlong" id="nvlong" value="">
+            <input type="hidden" name="saveID" id="saveID" value="">
+            <input type="hidden" name="smart_level" id="smart_level" value="">
+            <fieldset>
+            <legend class="blind"><p style="cursor: move">Naver 로그인</p></legend>
+            <div class="htmlarea" id="flasharea">
+                <div class="error_box_v2" style="display:none;position:absolute;top:59px;left:-14px" id="div_capslock2">
+                    <p><strong>Caps Lock</strong>이 켜져 있습니다.</p>
+                </div>
+            </div>
+            <div class="htmlarea" id="htmlarea" style="display:block;">
+                <div class="input_box"><label for="id" id="label_id" class="lbl_in">아이디</label><input type="text" id="id" name="id" maxlength="41" title="아이디" accesskey="L" placeholder="아이디" class="int"></div>
+                <div class="input_box"><label for="pw" id="label_pw" class="lbl_in">비밀번호</label><input type="password" id="pw" name="pw" maxlength="16" title="비밀번호" placeholder="비밀번호" class="int">
+                    <div class="error_box_v2" style="display: none" id="div_capslock">
+                        <p><strong>Caps Lock</strong>이 켜져 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chk_id_login">
+                <input type="checkbox" id="chk_log" title="로그인 상태유지" class="chk_login">
+				<label for="chk_log" class="lbl_long" id="lbl_long"><i class="ico_chk"></i>로그인 상태 유지</label>
+            </div>
+            <div class="login_help">
+                <div class="chk_ip"><a href="http://static.nid.naver.com/loginv3/help_ip.html" id='ip_guide' target="_blank" title="">IP보안</a> <span class="ip_box"><input type="checkbox" id="ckb_type" title="ip보안" class="chb_b"><label for="ckb_type" id="lbl_type" class="lbl_type">IP보안 체크</label></span></div>
+            </div>
+            <span class="btn_login"><input type="submit" title="로그인" value="로그인"></span>
+            <a href="https://nid.naver.com/nidlogin.login?mode=number&svctype=&logintp=&viewtype=&url=http://www.naver.com" target="_top" class="btn_dis">일회용 로그인</a>
+            <p class="btn_lnk">
+                <a href="https://nid.naver.com/nidregister.form?url=http://www.naver.com" target="_blank" class="btn_join">회원가입</a>
+                <a href="https://nid.naver.com/user/help.nhn?todo=idinquiry" target="_blank" class="btn_id">아이디 찾기</a>/<a href="https://nid.naver.com/nidreminder.form" target="_blank">비밀번호 찾기</a>
+            </p>
+            </fieldset>
+        </form>
+    </div>
+    <script type="text/javascript" src="http://static.nid.naver.com/loginv4/loginv5.js"></script>
+    <script type="text/javascript">
+    var useWideLoginboxFlash=true;
+    </script>
+</div>
+</div>
+<hr>
+</div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>	    
+
+    <footer class="footer">
+        <p> Copyright&copy; 2017 DaYea All rights reserved.</p>
+    </footer>
+</body>
+</html>

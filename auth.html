@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!--
+
+    " 2021 캡스톤디자인 6조 화이팅 "
+
+-->
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> <!--반응형 : 페이지 크기를 기기의 스크린 크기로 설정-->
+    <meta name="description" content="GAMFLIX">
+    <meta name="author" content="GAMFLIX">
+	  <meta name="keywords" content="game, html, css, javascript">
+    <link rel="stylesheet" href="style_sheet.css">
+    <link rel="shortcut icon" type="image/x-icon" href="G.ico">
+    <!--
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script src="../firebase/init.js"></script>
+    <script src="js/index.js"></script>
+    -->
+
+  	    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">GAMFLIX</span></h1>
+        </div>
+          <nav>
+            <ul>
+              <li><a href=index.html>HOME</a></li>
+              <li><a href="community.html">Community</a></li>
+              <li><a href="update.html">UPDATE</a></li>
+              <li><a href="signup.html">Sign up</a></li>
+              <li class="current"><a href="login.html">Login</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+  
+    <section id="boxes">
+      <div class="container">
+        
+        <h3>Login</h3>
+            <div style="width: 100%; display: flex">
+              <div class="forTextLable">
+                이메일
+              </div> 
+            <div class="forText">
+                <input type="email" id="emailText">
+    
+             </div>
+            <div>
+                <button id="emailCheck" onclick="emailSend()">인증번호 받기</button>
+            </div>
+            </div>
+        
+        
+      <div style="width: 100%; display: flex">
+            <div class="forTextLabel">
+               인증번호
+            </div>
+            <div class="forText">
+               <input type="text" id="certificationNumber">
+            </div>
+            <div>
+               <button id="certificationBtn" onclick="emailCertification()">인증하기</button>
+               <input type="hidden" id="certificationYN" value ="false">
+            </div>
+       </div>
+
+
+      </div>
+      <div class="container">
+        <h3>로그인</h3>
+        <h3>
+          <a href="http://isweb.joongbu.ac.kr/~dayea/"> 윤다예 </a>
+        </h3>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+          <nav>
+            <ul>
+              <li><a href="support.html">고객지원</a></li>
+              <li><a href="chatbot.html">Chatbot</a></li> 
+                    &copy; 2021. GAMFLIX all rights reserved
+                      <label class="switch">
+                      <input type="checkbox">
+                      <span class="slider round"></span>
+                      </label> 
+            </ul>
+          </nav>
+      </div>
+    </footer>
+</body>
+</html>

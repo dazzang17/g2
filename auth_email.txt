@@ -1,0 +1,57 @@
+<table
+    style="margin: 0px auto; padding: 0px; color: #ffffff; font-family: Arial, Helvetica,sans-serif; width: 743px; max-width: 800px; text-align: center; height: 333px;"
+    cellspacing="0" cellpadding="0">
+    <tbody style="background-color: #000000;">
+        <tr style="height: 40px;">
+            <td style="margin: 0px; padding: 0px; width: 743px; height: 40px;"><span
+                    style="font-family: arial, helvetica, sans-serif;"><img style="border: 0px; vertical-align: middle;"
+                        src="blob:https://dashboard.emailjs.com/5de4f9ef-5181-43a2-84fa-92b13f86936c" alt="로고"
+                        loading="lazy" /><span style="font-size: 24pt;">&nbsp;<span
+                            style="vertical-align: middle; font-family: &lt;table                    style=;"><span
+                                style="vertical-align: inherit;"><span style="vertical-align: inherit;"> GAMFLIX ​​이메일
+                                    인증</span></span></span></span></span></td>
+        </tr>
+        <tr style="height: 85px;">
+            <td style="margin: 0px; padding: 0px; width: 743px; height: 85px;">
+                <div style="font-family: Dotum; letter-spacing: 0px; text-align: left;">
+                    <p
+                        style="margin: 35.3906px 0px 0px; padding: 0px; letter-spacing: -1px; text-align: center; line-height: 20px;">
+                        <span style="font-family: arial, helvetica, sans-serif;"><span
+                                style="vertical-align: inherit;"><span style="vertical-align: inherit;">GAMFILX 계정에 등록한
+                                    이메일 주소가 올바른지 확인하기를위한 인증 번호입니다.</span></span></span></p>
+                    <p
+                        style="margin: 35.3906px 0px 0px; padding: 0px; letter-spacing: -1px; text-align: center; line-height: 20px;">
+                        <br /><span style="font-family: arial, helvetica, sans-serif;"><span
+                                style="vertical-align: inherit;"><span style="vertical-align: inherit;">아래의 인증 번호를 복사하여
+                                    이메일 인증을 완료 해주세요.</span></span></span></p>
+                </div>
+            </td>
+        </tr>
+        <tr style="height: 85px;">
+            <td style="margin: 0px; padding: 0px; width: 743px; height: 85px;">
+                <p
+                    style="margin: 35.3906px 0px 0px; padding: 0px; letter-spacing: -1px; line-height: 40px; font-size: 40px; color: #f4f4f4;">
+                    <span style="font-family: arial, helvetica, sans-serif;"><span
+                            style="vertical-align: inherit;"><span
+                                style="vertical-align: inherit;">{{email_code}}</span></span></span></p>
+            </td>
+        </tr>
+        <tr style="height: 123px;">
+            <td style="margin: 0px; padding: 0px; width: 743px; height: 123px;">
+                <div style="font-family: Dotum; letter-spacing: 0px; text-align: left;">
+                    <p
+                        style="margin: 35.3906px 0px 0px; padding: 0px; letter-spacing: -1px; text-align: center; line-height: 20px;">
+                        <span style="font-family: arial, helvetica, sans-serif;"><span
+                                style="vertical-align: inherit;"><span style="vertical-align: inherit;">개인 정보 보호를 위해 유효
+                                    인증 번호는 10 분 동안 만 유효합니다.</span></span></span></p>
+                    <p
+                        style="margin: 17.6875px 0px 0px; padding: 0px; letter-spacing: -1px; text-align: center; line-height: 20px; color: #f4f4f4;">
+                        <span style="font-family: arial, helvetica, sans-serif;"><span
+                                style="vertical-align: inherit;"><span style="vertical-align: inherit;">발신 전용 메일입니다.
+                                </span><span style="vertical-align: inherit;">궁금하신 사항은 고객 지원을 활용하시기
+                                    바랍니다.</span></span></span></p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
